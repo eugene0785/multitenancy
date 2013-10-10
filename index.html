@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="utf-8" />
+
+        <title>Мультиарендность</title>
+
+        <link href="css/impress.css" rel="stylesheet"/>
+        <link href="css/prettify.css" rel="stylesheet"/>
+        <link href="css/animation.css" rel="stylesheet"/>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jmpress.impress.js"></script>
+        <script src="js/prettify.js"></script>
+
+    </head>
+
+    <body>
+        <div id="impress">
+            <div class="step slide" data-x="1500">
+                <img id="topdog_logo" src="img/TopDogLogo.png" alt="TopDog Development Ltd"/>
+                <h3>Переезжаем в коммуналку:</h3>
+                <h3>селим нескольких клиентов в один кластер</h3>
+                <br/>
+                <br/>
+                <div id="left_part">
+                    <small>
+                        <b>Докладчик:</b><br/>
+                        Евгений Бабихин<br/>
+                        <a href="mailto:ebabikhin@topdog.ru.net">ebabikhin@topdog.ru.net</a><br/>
+                        <a href="http://www.topdog.uk.net">www.topdog.uk.net</a>
+                    </small>
+                </div>
+                <div id="right_part">
+                    <small>
+                        <b>Ассистент:</b><br/>
+                        Андрей Свириденко<br/>
+                        <a href="mailto:asv@topdog.ru.net">asv@topdog.ru.net</a><br/>
+                        <a href="http://www.topdog.uk.net">www.topdog.uk.net</a>
+                    </small>
+                </div>
+            </div>
+
+            <div class="step" data-x="3000">
+                <div id="question">
+                    <img src="img/question.gif" alt="Чем мы занимаемся?"/>
+                </div>
+                <div>
+                    <h2 class="question">Чем мы занимаемся?</h2>
+                </div>    
+            </div>
+
+            <div class="step" data-x="3000" data-y="1100">
+                <h2>Программный комплекс
+                <img class="header_image" src="img/tdi.jpg" alt="TD-i"/></h2>
+                <font data-jmpress="fade">Обеспечивает комплексную автоматизацию деятельности турагентств и туроператоров.<br/><br/>
+                Ключевые особенности системы:</font>
+                <br/>
+                <ul>
+                    <li data-jmpress="fade">Многозвенное распределенное приложение на платформе Java EE + PostgreSQL</li><br/>
+                    <li data-jmpress="fade">Обеспечивает работу в режиме высокой нагрузки</li><br/>
+                    <li data-jmpress="fade">Имеет высокую степень масштабируемости</li>
+                </ul>
+            </div>
+
+            <div class="step" data-x="3000" data-y="2200">
+                <h2>Приложение для колл-центра</h2>
+                <div class="large_image">
+                    <img src="img/screenshots/TD2.png" alt="Приложение для колл-центра" width="900"/>     
+                </div>
+            </div>  
+
+            <div class="step" data-x="3000" data-y="3300">
+                <h2>Пример B2C веб-сайта</h2>
+                <div class="large_image">
+                    <img src="img/screenshots/Website.jpg" alt="Пример B2C веб-сайта" width="900"/>     
+                </div>
+            </div>
+
+            <div class="step" data-x="4500" data-y="0">
+                <div id="question">
+                    <img src="img/question.gif" alt="Что такое мультиарендность?"/>
+                </div>
+                <div>
+                    <h2 class="question">Что же такое мультиарендность?</h2>
+                </div>    
+            </div>
+
+            <div class="step" data-x="4500" data-y="1100">
+                <h2><img class="header_image" src="img/notepad.png" alt="Определение мультиарендности"/>
+                    Определение мультиарендности
+                </h2>
+                <font><b>Мультиарендность</b> <i>(«multitenancy» — «множественная аренда»)</i> — элемент архитектуры программного обеспечения, где единый экземпляр приложения, запущенного на сервере, обслуживает множество организаций-клиентов <i>(«арендаторов»)</i></font>
+            </div>
+
+            <div class="step" data-x="4500" data-y="2200">
+                <div id="question">
+                    <img src="img/question.gif" alt="Зачем нам понадобилась мультиарендность?"/>
+                </div>
+                <div>
+                    <h2 class="question">Зачем нам понадобилась мультиарендность?</h2>
+                </div>    
+            </div>
+
+            <div class="step" data-x="4500" data-y="3300">
+                <h2><img class="header_image" src="img/task.png" alt="Постановка задачи"/>
+                    Постановка задачи
+                </h2>
+                <ul>
+                    <li data-jmpress="fade">Необходимо дать небольшим турагентствам доступ к системе крупного клиента в составе консорциума</li><br/>
+                    <li data-jmpress="fade">Необходимо обеспечить им возможность иметь общие данные</li><br/>
+                    <li data-jmpress="fade">Для небольших турагентств дорого содержать выделенную систему</li>
+                </ul>
+            </div>
+
+            <div class="step" data-x="4500" data-y="4400">
+                <h2><img class="header_image" src="img/plus.png" alt="Преимущества мультиарендности"/>
+                    Преимущества мультиарендности
+                </h2>
+                <ul>
+                    <li data-jmpress="fade">Мнимизация инфраструктурных расходов</li><br/>
+                    <li data-jmpress="fade">Более рациональное использование аппаратных ресурсов</li><br/>
+                    <li data-jmpress="fade">Минимизация дублирования общих данных</li><br/>
+                    <li data-jmpress="fade">Хорошая масштабируемость в пределах одного кластера</li><br/>
+                    <li data-jmpress="fade">Архитектура с наличием общих данных хорошо моделирует работу консорциума небольших турагентств во главе с большим туроператором</li>
+                </ul>
+            </div>
+
+            <div class="step" data-x="4500" data-y="5500">
+                <h2><img class="header_image" src="img/minus.png" alt="Недостатки мультиарендности"/>
+                    Недостатки мультиарендности
+                </h2>
+                <ul>
+                    <li data-jmpress="fade">Невозможность полностью исключить взаимное влияние клиентов друг на друга</li>
+                    <li data-jmpress="fade">Невозможность обновления ПО одного клиента без обновления остальных</li>
+                    <li data-jmpress="fade">Сложность обеспечения полной изоляцию данных клиентов</li>
+                    <li data-jmpress="fade">Сложность переноса клиента на выделенную систему</li>
+                    <li data-jmpress="fade">Сложность оценки нагрузки, производимой каждым конкретным клиентом</li>
+                </ul>
+            </div>
+
+            <div class="step" data-x="4500" data-y="5500" data-rotate-y="90">
+                <h2><img class="header_image" src="img/architecture.png" alt="Мультиарендная архитектура"/>
+                    Мультиарендная архитектура
+                </h2>
+                <font data-jmpress="fade">Варианты реализации мультиарендной архитектуры:</font>
+                <br/>
+                <ul>
+                    <li data-jmpress="fade">Выделенные сервера приложений и БД (отсутствие мультиарендности)</li><br/>
+                    <li data-jmpress="fade">Общий сервер приложений, выделенные БД</li><br/>
+                    <li data-jmpress="fade">Выделенный сервер приложений, общая БД</li><br/>
+                    <li data-jmpress="fade">Общий сервер приложений, общая БД</li>
+                </ul>
+            </div>
+
+            <div class="step" data-x="4500" data-y="5500" data-rotate-y="90" data-z="-1500">
+                <h2>Выделенные сервера приложений и БД</h2>
+                <div class="large_image">
+                    <img src="img/independent_clients.png" alt="Схема" width="600"/>     
+                </div>
+           </div>
+
+            <div class="step" data-x="4500" data-y="5500" data-rotate-y="90" data-z="-3000">
+                <h2>Общий сервер приложений, выделенные БД</h2>
+                <div class="large_image">
+                    <img src="img/mutlitenancy_ssdd.png" alt="Схема" width="600"/>     
+                </div>
+           </div>
+
+            <div class="step" data-x="4500" data-y="5500" data-rotate-y="90" data-z="-4500">
+                <h2>Выделенные сервера приложений, общая БД</h2>
+                <div class="large_image">
+                    <img src="img/mutlitenancy_dssd.png" alt="Схема" width="600"/>     
+                </div>
+           </div>
+
+            <div class="step" data-x="4500" data-y="5500" data-rotate-y="90" data-z="-6000">
+                <h2>Общий сервер приложений, общая БД</h2>
+                <div class="large_image">
+                    <img src="img/mutlitenancy_sssd.png" alt="Схема" width="600"/>     
+                </div>
+           </div>
+
+            <div class="step" data-x="4500" data-y="5500" data-rotate-y="90" data-z="-7500">
+                <h2><img class="header_image" src="img/server.png" alt="Общий сервер приложений"/>
+                    Общий сервер приложений
+                </h2>
+                <font data-jmpress="fade"><img class="small_image" src="img/plus.png" alt="Преимущества"/>
+                    Преимущества:
+                </font>
+                <br/>
+                <ul>
+                    <li data-jmpress="fade">Рациональное использование аппаратных ресурсов</li>
+                    <li data-jmpress="fade">Добавление нового клиента не требует подъема нового сервера</li>
+                </ul>
+                <font data-jmpress="fade"><img class="small_image" src="img/minus.png" alt="Недостатки"/>
+                    Недостатки:
+                </font>
+                <br/>
+                <ul>
+                    <li data-jmpress="fade">Нужно знать, в контексте какого клиента выполняется код</li>
+                    <li data-jmpress="fade">Высокая степень влияния клиентов друг на друга по производительности</li>
+                    <li data-jmpress="fade">При использовании выделенных БД не будут работать кэши 2-го и 3-го уровня в Hibernate (до версии 4.0)</li>
+                </ul>
+           </div>
+
+            <div class="step" data-x="4500" data-y="5500" data-rotate-y="90" data-z="-9000">
+                <h2><img class="header_image" src="img/db.png" alt="Общая база данных"/>
+                    Общая база данных
+                </h2>
+                <font data-jmpress="fade">Варианты реализации:</font>
+                <br/>
+                <ul>
+                    <li data-jmpress="fade">Отдельная схема на каждого клиента</li><br/>
+                    <li data-jmpress="fade">Отдельный комплект таблиц для каждого клиента</li><br/>
+                    <li data-jmpress="fade">Общие таблицы для всех клиентов</li><br/>
+                </ul>
+           </div>
+
+            <div class="step" data-x="4500" data-y="5500" data-rotate-y="90" data-z="-10500">
+                <h2><img class="header_image" src="img/db.png" alt="Общая база данных"/>
+                    Общая база данных
+                </h2>
+                <font data-jmpress="fade"><img class="small_image" src="img/plus.png" alt="Преимущества"/>
+                    Преимущества:
+                </font>
+                <br/>
+                <ul>
+                    <li data-jmpress="fade">Можно использовать единый пул соединений с БД</li>
+                    <li data-jmpress="fade">Удобно выполнять запросы по данным сразу нескольких клиентов</li>
+                    <li data-jmpress="fade">Можно легко делать ссылки между общими и частными данными</li>
+                </ul>
+                <font data-jmpress="fade"><img class="small_image" src="img/minus.png" alt="Недостатки"/>
+                    Недостатки:
+                </font>
+                <br/>
+                <ul>
+                    <li data-jmpress="fade">Большой размер БД</li>
+                    <li data-jmpress="fade">Сложность создания бэкапа данных отдельного клиента</li>
+                    <li data-jmpress="fade">Удаление клиента проблематично</li>
+                </ul>
+           </div>
+
+           <div class="step" data-x="4500" data-y="6600">
+                <h2><img class="header_image" src="img/architecture.png" alt="Выбор архитектуры"/>
+                    Выбор архитектуры
+                </h2>
+                <font data-jmpress="fade">Оптимальный вариант для решения поставленной задачи в нашем случае - общий сервер приложений и общая БД</font>
+                <br/>
+                <ul>
+                    <li data-jmpress="fade">Клиенты относительно небольшие, их взаимным влиянием можно пренебречь</li><br/>
+                    <li data-jmpress="fade">Гибкие ограничения на видимость данных между клиентами</li><br/>
+                    <li data-jmpress="fade">Удаления клиентов происходят нечасто</li><br/>
+                    <li data-jmpress="fade">Уже имеется инфраструктура для хранения идентификатора клиента в контексте выполняемого кода</li>
+                </ul>
+            </div>
+
+           <div class="step" data-x="4500" data-y="7700">
+                <h2><img class="header_image" src="img/box.png" alt="Штатная поддержка мультиарендности"/>
+                    Штатная поддержка мультиарендности
+                </h2>
+                <ul>
+                    <li data-jmpress="fade">Спецификация Java EE 7 обеспечивает поддержку мультиарендности на уровне всех сервисов, в т.ч. JPA, JMS, EJB, JNDI</li><br/>
+                    <li data-jmpress="fade">В Hibernate 4.x штатно поддерживается архитектура с выделенными БД и выделенными схемами внутри одной БД, поддержка общей БД с дискриминатором запланирована в Hibernate 5.0</li><br/>
+                    <li data-jmpress="fade">В Hibernate 3.x штатной поддержки нет, однако есть механизм фильтров</li><br/>
+                </ul>
+            </div>
+
+           <!--div class="step" data-x="6000" data-y="0">
+                <h2><img class="header_image" src="img/features.png" alt="Особенности реализации"/>
+                    Особенности реализации
+                </h2>
+                <ul>
+                    <li data-jmpress="fade">Использовать штатные средства Java EE 7 (GlassFish 4) не представляется возможным</li>
+                    <li data-jmpress="fade">Потребовалось адаптировать интерфейс приложения для колл-центра на поддержку мультиарендности</li>
+                    <li data-jmpress="fade">Предусмотреть возможность администраторам системы иметь доступ к данным всех клиентов</li>
+                    <li data-jmpress="fade">Нужно обеспечить безболезненный механизм миграции любой из имеющихся клиентских систем к новой модели</li>
+                    <li data-jmpress="fade">Нужно убедиться, что быстродействие не пострадает при переходе на новую модель</li>
+                </ul>
+            </div-->
+
+            <div class="step" data-x="6000" data-y="0">
+                <h2><img class="header_image" src="img/visibility.png" alt="Модель видимости сущностей"/>
+                    Модель видимости сущностей
+                </h2>
+                <ul>
+                    <li data-jmpress="fade">Сущность видна всем клиентам, но редактируется только главным клиентом</li><br/>
+                    <li data-jmpress="fade">Сущность может видеть и редактировать только клиент ее создавший</li><br/>
+                    <li data-jmpress="fade">Сущность видна и редактируется своим клиентом, но если она принадлежит главному клиенту, то также видна, но не недактируема другими клиентами</li><br/>
+                    <li data-jmpress="fade">Сущность не видна никому, кроме главного клиента</li><br/>
+                </ul>
+            </div>
+
+            <div class="step" data-x="6000" data-y="1100">
+                <h2><img class="header_image" src="img/discriminator.png" alt="Реализация дискриминатора"/>
+                    Реализация дискриминатора
+                </h2>
+                <ul>
+                    <li data-jmpress="fade">Общий пул соединений с БД</li><br/>
+                    <li data-jmpress="fade">Фильтр для SELECT запросов</li><br/>
+                    <li data-jmpress="fade">Интерцептор для вставок</li><br/>
+                    <li data-jmpress="fade">Хранение идентификатора клиента в контексте выполняемого кода</li><br/>
+                    <li data-jmpress="fade">Индексы по всем дискриминаторам</li><br/>
+                    <li data-jmpress="fade">Дискриминатор должен быть включен во все ограничения на уникальность значений полей в БД</li>
+                </ul>
+
+            </div>
+
+            <div class="step" data-x="6000" data-y="2200">
+                <h2><img class="header_image" src="img/problems.png" alt="Сложности реализации"/>
+                    Сложности реализации
+                </h2>
+                <ul>
+                    <li data-jmpress="fade">Классифицикация модели данных из более, чем 400 сущностей</li>
+                    <li data-jmpress="fade">Особого внимания потребовала подсистема отчетов</li>
+                    <li data-jmpress="fade">Администраторы системы должны иметь доступ к данным всех клиентов</li>
+                    <li data-jmpress="fade">Используемая версия Hibernate некорректно работала с фильтрами в подзапросах</li>
+                    <li data-jmpress="fade">Анализ большого объема кода на предмет наличия идентификатора клиента в текущем контексте</li>
+                    <li data-jmpress="fade">Весь функционал системы должны быть протестирован</li>
+                </ul>
+            </div>
+
+            <div class="step" data-x="6000" data-y="3300">
+                <h2><img class="header_image" src="img/results.png" alt="Результаты"/>
+                    Результаты
+                </h2>
+                <ul>
+                    <li data-jmpress="fade">Разработка заняла относительно небольшое время (2.5 месяца)</li><br/>
+                    <li data-jmpress="fade">Общее быстродействие системы не пострадало</li><br/>
+                    <li data-jmpress="fade">Примененное решение достаточно элегантно  точки зрения качества кода</li><br/>
+                    <li data-jmpress="fade">Технология была успешно внедрена в production</li><br/>
+                </ul>
+            </div>
+
+            <div class="step" data-x="7500" data-y="0">
+                <h2><img class="header_image" src="img/conclusions.png" alt="Выводы"/>
+                    Выводы
+                </h2>
+                <ul>
+                    <li data-jmpress="fade">Внедрение технологии позволяет перейти к модели продаж ПО SaaS</li><br/>
+                    <li data-jmpress="fade">Затраты на модернизацию системы полностью окупаются за счет снижения инфраструктурных расходов</li><br/>
+                    <li data-jmpress="fade">Мультиарендность позволяет снизить порог доступности системы для небольших клиентов</li><br/>
+                    <li data-jmpress="fade">Важно уделить особое внимание изоляции клиентов друг от друга</li><br/>
+                </ul>
+            </div>
+
+            <div class="step" data-x="9000" data-y="0">
+                <h2>Спасибо за внимание!</h2>
+                <div class="large_image">
+                    <img src="img/clouds.jpg" alt="Вперед к облачным технологиям!" width="500"/>     
+                </div>    
+                <h2>Вперед к облачным технологиям!</h2>
+            </div>
+
+        </div>
+
+        <script type="text/javascript">
+            $(function() {
+                    $('#impress').jmpress({
+                        "mouse": { clickSelects: false },
+                        "beforeChange": function(element, eventData) {
+                            element = $(element);
+                            if(element.is('tr')) {
+                                element.addClass('visited'); // code should not be hidden after visiting
+                            }
+                        }
+                    });
+            });
+
+            prettyPrint();
+        </script>
+    </body>
+</html>
+
+
+
+
